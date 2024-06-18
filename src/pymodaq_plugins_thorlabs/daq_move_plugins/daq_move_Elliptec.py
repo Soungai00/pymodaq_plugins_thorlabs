@@ -13,7 +13,7 @@ from elliptec import Controller, Rotator
 from elliptec.scan import find_ports, scan_for_devices
 
 com_ports = find_ports()
-
+# nothing changed
 
 class DAQ_Move_Elliptec(DAQ_Move_base):
     """Plugin for the Template Instrument
